@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(239, 229, 229);
+}
+#text{
+    color: rgb(162, 41, 41);
+    font-size: 40px;
+    text-align: center;
+    margin-top:10px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mini_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color:floralwhite;
+  }
+.image img{ 
+    width:50px;
+    cursor: pointer;
+}
+
+.top{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.socials{
+    text-align: center;
+}
+.socials > a{
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+button{
+    border: none;
+    margin-right: 20px;
+    
+}
